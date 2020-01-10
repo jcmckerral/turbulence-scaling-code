@@ -19,7 +19,7 @@ Expected time <30 seconds
 1. Download and unzip file
 2. Within MATLAB, navigate into the downloaded/unzipped folder "mckerral_scaling_code" 
 
-## INSTRUCTIONS FOR USE & REPRODUCTION:
+## INSTRUCTIONS FOR USE & FIGURE REPRODUCTION:
 To reproduce all size-abundance data and model, run the script "generate_all_figures.m"
 Expected time on reasonable laptop 1-30 seconds 
 
