@@ -1,4 +1,5 @@
 # README for code used in "Synergetic impacts of turbulence and fishing reduce ocean biomass"
+Model and code developed by Jody C. McKerral
 
 ## Requirements
 Requires: MATLAB
@@ -16,8 +17,8 @@ No non-standard hardware or other software should be required
 
 ## Installation:
 Expected time <30 seconds
-1. Download and unzip file
-2. Within MATLAB, navigate into the downloaded/unzipped folder "mckerral_scaling_code" 
+1. Download zip file, decompress
+2. Within MATLAB, navigate into the downloaded/unzipped folder "turbulence-scaling-code" 
 
 ## Instructions for use & figure reproduction:
 To reproduce all size-abundance data and model, run the script "generate_all_figures.m"
