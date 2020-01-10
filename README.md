@@ -1,4 +1,4 @@
-### README for code used in "Synergetic impacts of turbulence and fishing reduce ocean biomass"
+# README for code used in "Synergetic impacts of turbulence and fishing reduce ocean biomass"
 
 ## REQUIREMENTS
 Requires: MATLAB
