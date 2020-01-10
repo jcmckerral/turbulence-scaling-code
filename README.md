@@ -1,5 +1,6 @@
-README for scripts used in "Synergetic impacts of turbulence and fishing reduce ocean biomass"
+### README for code used in "Synergetic impacts of turbulence and fishing reduce ocean biomass"
 
+## REQUIREMENTS
 Requires: MATLAB
 
 Scripts have been tested and known to work with the following MATLAB versions:
@@ -13,18 +14,18 @@ Copyright (c) 2010, Pekka Kumpulainen Copyright (c) 2011, Nikolay S.
 
 No non-standard hardware or other software should be required
 
-INSTALLATION:
+## INSTALLATION:
 Expected time <30 seconds
 1. Download and unzip file
 2. Within MATLAB, navigate into the downloaded/unzipped folder "mckerral_scaling_code" 
 
-INSTRUCTIONS FOR USE & REPRODUCTION:
+## INSTRUCTIONS FOR USE & REPRODUCTION:
 To reproduce all size-abundance data and model, run the script "generate_all_figures.m"
 Expected time on reasonable laptop 1-30 seconds 
 
-OUTPUTS:
+### OUTPUTS:
 Figures 1, 3a, 3b, 3c
 Some minor formatting, e.g. legends, are missing
 
-OTHER NOTES:
+### OTHER NOTES:
 Each script has a general description of its contents in a header and basic comments.
