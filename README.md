@@ -11,8 +11,9 @@ Scripts have been tested and known to work in MATLAB on the following operating 
 Windows 10, OSX 10.12+, Ubuntu LTS 18.04
 
 Dependencies: 
-subtightplot.m (https://au.mathworks.com/matlabcentral/fileexchange/39664-subtightplot)
-tightfig.m (https://au.mathworks.com/matlabcentral/fileexchange/34055-tightfig-hfig)
+[subtightplot.m](https://au.mathworks.com/matlabcentral/fileexchange/39664-subtightplot)
+
+[tightfig.m](https://au.mathworks.com/matlabcentral/fileexchange/34055-tightfig-hfig)
 
 No non-standard hardware or other software should be required
 
