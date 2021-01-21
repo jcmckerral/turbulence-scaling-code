@@ -53,7 +53,7 @@ for i = 1:nboot
     % fitting function needs non-log data
     abundances = 10.^[equilibria(:, 2); equilibria(:, 1)];
     % get organisms >=0.1m (non-standarised length)
-    idx = lengths(:, 1) >= 0.1 / (10^(-7.5));
+    idx = lengths(:, 1) >= 0.1 ;
     
     % Now get 236 random size-abund rows from simulated turbulent data
     try
@@ -82,7 +82,7 @@ for i = 1:nboot
     % fitting function needs non-log  data
     abundances = 10.^[equilibria(:, 2); equilibria(:, 1)];
     % get organisms <0.1m (non-standarised length)
-    idx = lengths(:, 1) < 0.1 / (10^(-7.5));
+    idx = lengths(:, 1) < 0.1 ;
     
      % Now get 284 random size-abund rows from simulated laminar data
     try

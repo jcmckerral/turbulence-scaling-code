@@ -7,7 +7,7 @@ function [predLengths, rho, equilibria, efficiency] = generateModelResults(npair
 % choose limits on PPMR, create a random selection of PPMRs in that
 % interval. Will be evenly spaced on log scale.
 b = -2;
-a = -0.6;
+a = -0.5;
 rho = 10.^((b - a) .* rand(npairs, 1) + a);
 
 % Set size interval. -2 in the PPMR is factored in i.e. the (log10) min
@@ -18,10 +18,6 @@ IntEnd = 1.2;
 % Generate random set of predator lengths, evenly spaced on the log10 size
 % interval
 predLengths = 10.^((IntEnd - IntStart) .* rand(npairs, 1) + IntStart);
-
-% standardise the lengths
-minStand = 10^(-7.5);
-predLengths = predLengths / 10^(-7.5);
 
 % set up results matrix and call model script
 l = length(predLengths);
